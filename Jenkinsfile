@@ -26,7 +26,7 @@ node {
           }
     }
     stage('Deploy - Clone') {
-          git 'https://github.com/priximmo/jenkins-ansible-docker.git'
+          git 'https://github.com/epsi3M/ansible-docker.git'
     }
     stage('Deploy - End') {
       ansiblePlaybook (
