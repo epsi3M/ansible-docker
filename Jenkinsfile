@@ -1,5 +1,5 @@
 node {
-   def registryProjet='registry.gitlab.com/xavki/presentations-jenkins/wartest'
+   def registryProjet='registry.gitlab.com/epsi3m/mspr2-project'
    def IMAGE="${registryProjet}:version-${env.BUILD_ID}"
     stage('Build - Clone') {
           git 'https://github.com/epsi3M/warbuild-docker.git'
